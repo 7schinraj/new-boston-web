@@ -1,0 +1,200 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+}
+.nav-list{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-list p{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list p:hover{
+    color: var(--button-blue);
+    border-bottom: solid 2px var(--button-blue);
+}
+.hover-list{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.open-div{
+    width: auto;
+    height: 450px;
+    background-color: var(--white-color);
+    left: 0;
+    top: 100%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+}
+.open-div:hover .nav-product{
+    color: var(--button-blue);
+    border-bottom: solid 2px var(--button-blue);
+}
+.sub-list{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 30px;
+    position: relative;
+}
+.sub-list1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: none;
+}
+.sub-list1:hover{
+    background-color: var(--light-blue);
+    border-radius: 5px;
+}
+.sub-list1 p{
+    font-size: 23px;
+}
+.explore-btn{
+    color: var(--button-blue);
+    border: solid 1px var(--button-blue);
+    border-radius: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.explore-btn p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position-subdiv{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.open-spot{
+    width: 600px;
+    height: 450px;
+    background-color: var(--footer-bg);
+    padding: 30px 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    right: -170%;
+    top: 0;
+}
+.spot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.spot p{
+    color: var(--para-color);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+.spot-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.spot-grid1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.spot-grid1 p{
+    color: var(--para-color);
+    font-size: 14px;
+    line-height: 22px;
+}
+.read-more-btn{
+    color: var(--button-blue);
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 13px;
+}
+.read-more-btn p{
+    color: var(--button-blue);
+    font-size: 17px;
+
+}
+.read-more-btn:hover p{
+    transform: translateX(5px);
+    transition: 0.3s;
+}
+.explore-btn:hover{
+    background-color: var(--button-blue);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+.company-details{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.company-details p{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+.company-details p:hover{
+    color: var(--button-blue);
+    border-bottom: solid 2px var(--button-blue);
+    padding-bottom: 1px;
+}
+.contact-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--button-blue);
+    color: var(--white-color);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.contact-btn:hover{
+    background-color: var(--hover-blue);
+    transition: 0.5s;
+}

@@ -1,0 +1,80 @@
+.footer-page{
+    width: 100%;
+    height: auto;
+    background-color: var(--footer-bg);
+}
+.footer{
+    width: 95%;
+    height: auto;
+    display: flex;
+    padding: 80px 0;
+    margin: 0 auto;
+    border-bottom: solid 1px var(--grey-color);
+}
+.footer-logo{
+    width: 40%;
+    height: auto;
+}
+.logo-img{
+    width: 220px;
+}
+.footer-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.section1 h5{
+    font-weight: 800;
+    color: var(--button-blue);
+}
+.section1 p{
+    color: var(--para-color);
+    font-size: 15px;
+}
+.section1 p:hover{
+    color: var(--button-blue);
+    cursor: pointer;
+}
+.footer-contacts{
+    display: flex;
+    width: 95%;
+    margin:  0 auto;
+    height: auto;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.footer-icons{
+    display: flex;
+    gap: 25px;
+    color: var(--button-blue);
+}
+.footer-icons p{
+    font-size: 19px;
+}
+.footer-icons p:hover{
+    color: var(--para-color);
+    cursor: pointer;
+}
+.copyright{
+    color: var(--para-color);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.footer-policies{
+    display: flex;
+    gap: 20px;
+}
+.footer-policies p{
+    color: var(--button-blue);
+    font-size: 13px;
+    cursor: pointer;
+}
+.footer-policies p:hover{
+    color: var(--para-color);
+}

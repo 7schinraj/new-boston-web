@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+    --button-blue: #0590C8;
+    --hover-blue: #2AA1D0;
+    --mid-blue: #A5D7EB;
+    --white-color: #ffffff;
+    --black-color: rgb(0, 0, 0);
+    --black-font: #0F0E17;
+    --para-color: #5F6984;
+    --light-blue: #CDE9F4;
+    --grey-color: #CFCFD1;
+    --footer-bg: #F9FAFB;
+}

@@ -36,10 +36,12 @@
 .section1 p{
     color: var(--para-color);
     font-size: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 .section1 p:hover{
     color: var(--button-blue);
     cursor: pointer;
+    transform: translate(10px);
 }
 .footer-contacts{
     display: flex;

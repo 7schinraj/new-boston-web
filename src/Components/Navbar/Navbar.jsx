@@ -62,7 +62,7 @@ const Navbar = () => {
                 <p><MdArrowRightAlt /></p>
               </button>
               </div>
-              { spot && <div className='open-spot'>
+              <div className='open-spot'>
                 <div className='spot'>
                   <h2>Spot</h2>
                   <p>Our agile mobile robot fordynamic sensing and industrial inspection.</p>
@@ -100,11 +100,10 @@ const Navbar = () => {
                     </button>
                   </div>
                 </div>
-              </div>}
+              </div>
             </div>
           
-          
-          
+        
         </div> }
           
         </div>     
